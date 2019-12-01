@@ -1,0 +1,29 @@
+#container {
+  font-size: 40px;
+  background-color: rebeccapurple;
+}
+
+#container > div {
+  margin-bottom: 15px;
+  height: 50px;
+}
+
+#pixels {
+  width: 400px;
+  background-color: lightcoral;
+}
+
+#em {
+  width: 20em;
+  background-color: hotpink;
+}
+
+#percent {
+  width: 50%;
+  background-color: violet;
+}
+
+#vh {
+  width: 60vh;
+  background-color: purple;
+}

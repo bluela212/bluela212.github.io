@@ -1,0 +1,22 @@
+img {
+  width: auto;
+  height: 450px;
+}
+
+p {
+  text-align: justify;
+}
+
+#strawberry {
+  float: left;
+}
+
+#strawberry2 {
+  float: right;
+}
+
+p:last-child {
+  background-color: cyan;
+  clear: both;
+}
+

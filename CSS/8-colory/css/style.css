@@ -1,0 +1,29 @@
+body {
+  background-color: yellowgreen;
+}
+
+div {
+  width: 200px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+#predefined-colors {
+  background-color: orange;
+}
+
+#hexadecimal-colors {
+  background-color: #535455;
+}
+
+#short-hexadecimal-colors {
+  background-color: #255;
+}
+
+#rgb-function {
+  background-color: rgb(5, 178, 200);
+}
+
+#rgba-function {
+  background-color: rgb(12, 255, 70, 0.7);
+}
