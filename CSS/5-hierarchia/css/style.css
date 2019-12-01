@@ -1,0 +1,16 @@
+p {
+    background-color: silver;
+}
+
+p.paragraph {
+    background-color: steelblue;
+}
+
+p#paragraph {
+    background-color: tomato;
+}
+
+/* 
+    p {
+        backgroud-color: red !important;
+*/

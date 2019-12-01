@@ -1,0 +1,24 @@
+[title] {
+    color: pink;
+}
+
+[title='About me'] {
+    background-color: violet;
+}
+
+[title~='Container'] {
+    background-color: purple;
+    text-decoration: none;
+}
+
+[title*='ll'] {
+    background: palevioletred;
+}
+
+[title^='More'] {
+    background-color: plum;
+}
+
+[title$='portfolio'] {
+    background-color: salmon;
+}
