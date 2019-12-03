@@ -1,0 +1,11 @@
+form label {
+    display: block;
+}
+
+form input, form select{
+    margin-bottom: 10px;
+}
+
+form label[for='agreement'] {
+    display: inline;
+}
