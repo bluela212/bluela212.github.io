@@ -1,7 +1,7 @@
 #background-img {
-  background-color: chocolate;
-  background-image: url('..img/img.jpeg');
-  background-repeat: repeat-y;
+  background-color: fuchsia;
+  background-image: url('../img/strawberry.jpg');
+  background-repeat: repeat-y; 
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
