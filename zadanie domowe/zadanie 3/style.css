@@ -1,0 +1,81 @@
+#kwadrat {
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.square {
+    width: 94px;
+    height: 94px;
+    border: 2px solid #fff;
+    float: left;
+    position: relative;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 50px;
+    position: absolute;
+    left: 19px;
+    top: 19px;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;    
+}
+#green {
+    background-color: green;
+}
+#yellow {
+    background-color: yellow;
+}
+#black {
+    background-color: black;
+}
+#orange {
+    background-color: orange;
+}
+#purple {
+    background-color: purple;
+}
+#gray {
+    background-color: gray;
+}
+#pink {
+    background-color: pink;
+}
+#red1 {
+    background-color: red;
+}
+
+#pink1 {
+    background-color: pink;
+}
+
+#blue1 {
+    background-color: blue;    
+}
+#green1 {
+    background-color: green;
+}
+#yellow1 {
+    background-color: yellow;
+}
+#black1 {
+    background-color: black;
+}
+#orange1 {
+    background-color: orange;
+}
+#purple1 {
+    background-color: purple;
+}
+#gray1 {
+    background-color: gray;
+}
