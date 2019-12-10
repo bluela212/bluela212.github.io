@@ -1,0 +1,115 @@
+#square {
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    width: 600px;
+    height: 50vh;
+    text-align: center;
+    font-size:8em;
+}
+
+.square {
+    position: absolute;
+    left: 0;
+    right: 0;
+    animation-play-state: running;
+    text-align: center;
+}
+
+#ten {
+    animation: 1s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    animation-delay: 0s;
+}
+
+#nine {
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    visibility: hidden;
+}
+
+#eight {
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    visibility: hidden;
+}
+
+#seven {
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    visibility: hidden;
+}
+
+#six {
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+    visibility: hidden;
+}
+
+#five {
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+    visibility: hidden;
+}
+
+#four {
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+    visibility: hidden;
+}
+
+#three {
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 7s;
+    visibility: hidden;
+}
+
+#two {
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 8s;
+    visibility: hidden;
+}
+
+#one {
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+    visibility: hidden;
+}
+
+#love {
+    animation: 1s fadeInOut;
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+    visibility: hidden;
+}
+
+@keyframes fadeIn {
+    0% {
+        visibility: hidden;
+    }
+    95% {
+        visibility: visible;
+    }
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes fadeInOut {
+    0% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
