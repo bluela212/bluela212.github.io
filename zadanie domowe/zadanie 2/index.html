@@ -1,49 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Form</title>
-    <link rel='stylesheet' href="style.css">
+    <meta name="viewport" content="width=device-width">
+    <title>Kolorowe kwadraty</title>
+    <link href='style.css' rel="stylesheet" type="text/css">
 </head>
 <body>
-    <form action='https://formspree.io/xvogqrwb' method='POST'>
-        <label for='name'>Imię:</label>
-        <input type='text' name='name' id='name'>
-
-        <br>
-        <label for='lastname'>Nazwisko:</label>
-        <input type='text' name='lastname' id='lastname'>
-
-        <br>
-        <label for='mail'>E-mail:</label>
-        <input type='email' name='_replyto' id='mail'>
-
-        <br>
-        <label for='phone'>Telefon:</label>
-        <input type='tel' name='phone' id='phone'><br>
-
-        <br>
-        <label for='city'>Wybierz miasto:</label>
-        <select name='city' id='city'>
-            <option value='krakow'>Kraków</option>
-            <option value="warszawa">Warszawa</option>
-            <option value="gdansk">Gdańsk</option>
-        </select> 
-        <br>
-        <br>
-        <label>Wybierz płec:</label>
-        <input type='radio' name='gender' value="male" checked> Mężczyzna
-        <input type="radio" name="gender" value="female"> Kobieta
-        <br>
-        <br>
-        <input type="checkbox" id="agreement" name="agreement">
-        <label for='agreement'>Wyrażam zgodę na przetwarzanie danych osobowych</label>
-        <br>
-        <br>
-        <label for='message'>Wiadomość:</label>
-        <textarea name='message' cols="30" rows="10" maxlength="100" id="message"></textarea>
-        <br>
-        <input type="submit" value="Send">
-    </form>
+    <div id="kwadrat">
+        <div class="square" id="red">
+          <div class="circle" id="pink1"></div>
+        </div>
+        <div class="square" id="blue">
+          <div class="circle" id="gray1"></div>
+        </div>
+        <div class="square" id="green">
+          <div class="circle" id="purple1"></div>
+        </div>
+        <div class="square" id="yellow">
+          <div class="circle" id="green1"></div>
+        </div>
+        <div class="square" id="black">
+          <div class="circle" id="red1"></div>
+        </div>
+        <div class="square" id="orange">
+          <div class="circle" id="blue1"></div>
+        </div>
+        <div class="square" id="purple">
+          <div class="circle" id="orange1"></div>
+        </div>
+        <div class="square" id="gray">
+          <div class="circle" id="yellow1"></div>
+        </div>
+        <div class="square" id="pink">
+          <div class="circle" id="black1"></div>
+        </div>
+    </div>
 </body>
 </html>
