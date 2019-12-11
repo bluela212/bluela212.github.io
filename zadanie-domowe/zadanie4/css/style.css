@@ -4,8 +4,9 @@
     position: relative;
     width: 600px;
     height: 50vh;
+    font-size:7em;
     text-align: center;
-    font-size:8em;
+    padding-top: 20vh;
 }
 
 .square {
@@ -13,11 +14,11 @@
     left: 0;
     right: 0;
     animation-play-state: running;
-    text-align: center;
+    
 }
 
 #ten {
-    animation: 1s;
+    animation: 1s fadeIn;
     animation-fill-mode: forwards;
     visibility: hidden;
     animation-delay: 0s;
