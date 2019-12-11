@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    font-size: 22px;
+}
+
+header {
+    background-color: rgb(253, 49, 49);
+}
+
+section {
+    background-color: rgb(19, 206, 219);
+}
+
+#left {
+    background-color: rgb(11, 163, 11);
+}
+
+#right {
+    background-color: rgb(241, 126, 145);
+}
+
+footer {
+    background-color: rgb(130, 44, 216);
+}
+header, footer {
+    padding: 3%;
+}
+
+@media (max-width:768px) {
+    header, footer {
+        height: 9.5vh;
+        width: 100%;
+        background-size: cover;
+        position: relative;
+    }
+    section {
+        height: 27vh;
+        width: 100%;
+        display: block;
+        top: 50vh;
+        overflow: hidden;
+        padding: 5%;
+    }
+    #left {
+        height: 27vh;
+        width: 100%;
+        display: block;
+    }
+    #right {
+        height: 27vh;
+        width: 100%;
+        display: block;
+    }
+}
+@media (min-width:769px) and (max-width:992px) {
+    #flex_container {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    header, footer {
+        height: 10vh;
+        width: 100%;
+        background-size: cover;
+    }
+    section {
+        height: 40vh;
+        width: 80%;
+        top: 50vh;
+        padding: 5%;
+        order: 0;
+    }
+    #right {
+        height: 40vh;
+        width: 20%;
+        order: 1;
+    }
+    #left {
+        height: 40vh;
+        width: 100%;
+        order: 2;
+    }
+}
+@media (min-width:993px) {
+    #flex_container {
+        display: flex;
+        width: 100%;
+    }
+    header, footer {
+        height: 10vh;
+        width: 100%;
+        background-size: cover;
+    }
+    section {
+        height: 40vh;
+        width: 60%;
+        top: 50vh;
+        padding: 5%;
+        order: 2;
+        overflow: hidden;
+    }
+    #right {
+        height: 40vh;
+        width: 20%;
+        order: 3;
+    }
+    #left {
+        height: 40vh;
+        width: 20%;
+        order: 1;
+    }
+}
