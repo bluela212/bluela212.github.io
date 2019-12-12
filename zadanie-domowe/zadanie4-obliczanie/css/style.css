@@ -14,91 +14,61 @@
     left: 0;
     right: 0;
     animation-play-state: running;
-    
+    animation: 1s fadeIn;
+    visibility: hidden;
+    animation-fill-mode: forwards;
 }
 
 #ten {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
-    visibility: hidden;
     animation-delay: 0s;
 }
 
 #nine {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 1s;
-    visibility: hidden;
 }
 
 #eight {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 2s;
-    visibility: hidden;
 }
 
 #seven {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 3s;
-    visibility: hidden;
 }
 
 #six {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 4s;
-    visibility: hidden;
 }
 
 #five {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 5s;
-    visibility: hidden;
 }
 
 #four {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 6s;
-    visibility: hidden;
 }
 
 #three {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 7s;
-    visibility: hidden;
 }
 
 #two {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 8s;
-    visibility: hidden;
 }
 
 #one {
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
     animation-delay: 9s;
-    visibility: hidden;
 }
 
 #love {
     animation: 1s fadeInOut;
-    animation-fill-mode: forwards;
     animation-delay: 10s;
-    visibility: hidden;
 }
 
 @keyframes fadeIn {
     0% {
         visibility: hidden;
     }
-    95% {
+    99% {
         visibility: visible;
     }
     100% {
