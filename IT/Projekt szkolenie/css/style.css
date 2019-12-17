@@ -1,0 +1,35 @@
+* {
+    color: #295;
+    display: block;
+}
+
+header {
+    background-color: papayawhip;
+}
+
+div:hover {
+    color: blue;
+}
+
+.back:hover {
+    color: red;
+}
+
+[name] {
+    color: #313;
+}
+
+div.back {
+    background-color: darkblue;
+    position: sticky;
+    top: 10px;
+    left: 150px;
+    height: 10vh;
+}
+
+hr {
+    background-color: #007bff;
+    /* border: 0; */
+    height: 1px;
+    width: 7em;
+}
