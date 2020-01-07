@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+.box {
+    width: 45%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    /* left: 25%; */
+    position: relative;
+}
+img {
+    width: 100%;
+
+}
+.box img {
+    position: relative;
+    z-index: 1;
+}
+
+.box:hover {
+    padding: 5px;
+    border: 3px solid black;
+    /* position: absolute; */
+}
+
+
+
+.box::after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 102%;
+    left: -3px;
+    top: 180px;
+    height: 150px;
+    background: #fff;
+    z-index: 0;
+    visibility: hidden;
+    transition: 3s all ease-out;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.box:hover::after {
+    visibility: visible;
+    height: 0;
+}
+
+.box::before {
+    content: "LAKE VIEW";
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+    width: calc(100% + 6px);
+    text-align: center;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    line-height: 20px;
+    left: -3px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transition: 3s all ease-out;
+    visibility: hidden;
+}
+
+.box:hover::before {
+    visibility: visible;
+    height: 50px;
+    line-height: 50px;
+    font-size: 40px;
+}
+
+
+/* * {
+    box-sizing: border-box;
+}
+
+#container {
+    height: 300px;
+    width: 40%;
+    background-image: url(../6-jezioro.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+#container:hover {
+    border-style: solid;
+    border-width: medium;
+}
+#container:hover::before {
+    content: "LAKE VIEW";
+    position: absolute;
+    
+} */

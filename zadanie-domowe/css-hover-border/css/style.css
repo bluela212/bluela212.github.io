@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    width: 45%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    /* left: 25%; */
+    position: relative;
+}
+img {
+    width: 100%;
+}
+
+.box:hover {
+    padding: 5px;
+    border: 3px solid black;
+    /* position: absolute; */
+}
+
+.box:hover::before {
+    content: "LAKE VIEW";
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* * {
+    box-sizing: border-box;
+}
+
+#container {
+    height: 300px;
+    width: 40%;
+    background-image: url(../6-jezioro.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+#container:hover {
+    border-style: solid;
+    border-width: medium;
+}
+#container:hover::before {
+    content: "LAKE VIEW";
+    position: absolute;
+    
+} */

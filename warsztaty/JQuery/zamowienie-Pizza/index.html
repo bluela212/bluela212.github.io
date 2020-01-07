@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Zamówienie pizzy</title>
+</head>
+<body>
+    <form action="" id="pizza-order">
+
+        <fieldset>
+            <label for="first-name">Imie: </label>
+            <input type="text" name="first-name" id="first-name">
+        </fieldset>
+
+        <fieldset>
+            <label for="last-name">Nazwisko: </label>
+            <input type="text" name="last-name" id="last-name">
+        </fieldset>
+
+        <fieldset>
+            <label for="street">Ulica: </label>
+            <input type="text" name="street" id="street">
+
+            <label for="street-no">Numer: </label>
+            <input type="text" name="street-no" id="street-no">
+        </fieldset>
+
+        <fieldset>
+            <label for="post-code">Kod pocztowy: </label>
+            <input type="text" name="post-code" id="post-code">
+
+            <label for="city">Miasto: </label>
+            <input type="text" name="city" id="city">
+        </fieldset>
+
+        <fieldset>
+            <label for="pizza">Pizza: </label>
+            <select name="pizza" id="pizza">
+                <option value="0" selected>--Wybierz Pizze</option>
+                <option value="1">Margarita</option>
+                <option value="2">Hawajska</option>
+                <option value="3">Peperoni</option>
+                <option value="4">Diabelska</option>
+                <option value="6">Vega</option>
+            </select>
+            <span id="price">0 pln</span>
+        </fieldset>
+
+        <fieldset>
+            <input type="checkbox" name="tomato-souse" id="tomato-souse">
+            <label for="tomato-souse">Sos pomidorowy</label>
+
+            <input type="checkbox" name="garlic-souse" id="garlic-souse">
+            <label for="garlic-souse">Sos czosnokowy</label>
+        </fieldset>
+
+        <fieldset>
+            <input type="checkbox" name="agree" id="agree">
+            <label for="agree">Zgadam sie na RODO itd.</label>
+        </fieldset>
+        
+        <button type="submit">Zamów pizze</button>
+    </form>
+
+    <ul id="errors"></ul>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+
+    <script src="pizza.js"></script>
+</body>
+</html>
