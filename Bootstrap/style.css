@@ -1,0 +1,13 @@
+.box{
+    height: auto;
+    background-color: red;
+}
+
+.box-fluid{
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.card1{
+    background-color: chartreuse;
+}

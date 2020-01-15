@@ -1,0 +1,19 @@
+.container {
+    height: 500px;
+    width: auto;
+}
+
+.conteiner-skills{
+    color: grey;
+    margin-top: 70px;
+}
+
+.icons{
+    font-size: 7em;
+    color: orange;
+    border-radius: 50%;
+    background: rgba(196, 190, 190, 0.096);
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+}

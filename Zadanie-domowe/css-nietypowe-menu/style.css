@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-size: 20px;
+}
+
+#box {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 2em 0em;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to right top, transparent 50%,red 50%) left / 50% 100% no-repeat;
+    left: 0;
+    position: absolute;
+}
+
+#menu-right, #menu-left {
+    background-color: darkblue;
+    text-transform: uppercase;
+}
+
+#section {
+    font-size: 70px;
+    font-weight: 600;
+    position: relative;
+}
