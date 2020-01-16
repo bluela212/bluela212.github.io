@@ -9,6 +9,7 @@ function pageLoaded() {
         var newNumber = parseInt(lastNumber) + 1;
         var li = document.createElement('li');
         li.textContent = 'Item ' + newNumber;
+        li.classList.add("item");
         items.appendChild(li);
     };
 }
