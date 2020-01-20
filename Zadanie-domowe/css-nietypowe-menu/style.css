@@ -9,23 +9,37 @@ body {
 }
 
 #box {
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    padding: 2em 0em;
     width: 100%;
-    text-align: center;
-    background: linear-gradient(to right top, transparent 50%,red 50%) left / 50% 100% no-repeat;
     left: 0;
-    position: absolute;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 60%, 0 100%); 
+}
+
+#menu-left {
+    flex-direction: row;
+}
+
+#menu-right{
+   float: right;
 }
 
 #menu-right, #menu-left {
     background-color: darkblue;
     text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
 }
 
 #section {
     font-size: 70px;
     font-weight: 600;
-    position: relative;
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.link{
+    padding: 40px;
+    color: white;
 }
