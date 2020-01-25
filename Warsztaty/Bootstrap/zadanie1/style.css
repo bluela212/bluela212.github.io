@@ -1,0 +1,114 @@
+.main-right-nav {
+    justify-content: flex-end;
+}
+
+.main-form {
+    background-image: url('form-background.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.glowny-kontener {
+    padding-top: 50px;
+
+}
+
+.main-title-form {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.main-formularz {
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+#formularz-kontaktowy input,
+#formularz-kontaktowy textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.content-holder {
+    padding-top: 120px;
+
+}
+
+.content-holder h1 {
+    margin-top: 10px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 44px;
+}
+
+.content-holder p {
+    font-size: 18px;
+    line-height: 34px;
+    color: #fff;
+    margin: 20px 0 30px 0;
+}
+
+.content-holder a {
+    margin: 5px;
+}
+
+
+.btn-gray {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 0;
+}
+
+.btn-gray:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#inspiration {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#text-inspiracja {
+    padding-top: 40px;
+}
+
+.span-footer {
+    color: orange;
+}
+
+/* .main-right-nav{
+    justify-content: flex-end;
+}
+
+.main-form{
+    background-image: url(form-background.jpg);
+    background-size: cover;
+    height: auto;
+    color: white;
+}
+
+.glowny-kontener{
+    padding-top: 40px;
+}
+
+.main-formularz{
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 20px;
+}
+
+.main-title-form{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#formularz-kontaktowy input,
+#formularz-kontaktowy textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+#join2{
+    margin-top: 80px;
+} */
+

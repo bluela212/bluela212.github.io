@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Klub podróżniczy</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar-right main-right-nav" id="main-nav">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#join">Dołącz do nas</a>
+                    <a class="nav-item nav-link" href="#inspirations">Inspiracje</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="join" class="main-form">
+        <div class="container glowny-kontener">
+            <div class="row">
+                <div class="col-12 col-md-5 col-lg-4">
+                    <div class="main-formularz">
+                        <div class="container">
+                            <div class="row main-title-form">
+                                <div class="col-9">
+                                    <h2>Dołącz do nas</h2>
+                                    <p>Wypełnij zgłoszenie na członka klubu:</p>
+                                </div>
+                                <div class="col-3">
+                                    <i class="fas fa-pencil-alt display-4"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <form id="formularz-kontaktowy">
+                            <input type="text" id="name" placeholder="Imię i nazwisko">
+                            <input type="email" id="email" placeholder="Email">
+                            <input type="tel" id="phone" placeholder="Telefon">
+                            <textarea id="message" rows="3" placeholder="Kilka słów o sobie"></textarea>
+
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-12 col-md-7 col-lg-8 text-center">
+                    <div class="content-holder">
+                        <h1>Świat jest na wyciągnięcie ręki</h1>
+                        <p>Poznaj ludzi, których łączy wspólna pasja do podróżowania. Przekonaj się, jak wygląda życie
+                            bez granic</p>
+                        <a href="" class="btn btn-primary btn-orange">Znajdź nas <i class="fas fa-angle-right"></i></a>
+                        <a href="" class="btn btn-primary btn-gray">Dowiedz się więcej <i
+                                class="far fa-lightbulb"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="inspiration">
+        <div class="container drugi-kontener">
+            <div class='row'>
+                <div class="col-md-5 video-holder">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://player.vimeo.com/video/115014610" width="640" height="360" frameborder="0"
+                            allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        <p><a href="https://vimeo.com/115014610">The Coast</a> from <a
+                                href="https://vimeo.com/nrsfilms">NRS Films</a> on <a
+                                href="https://vimeo.com">Vimeo</a>.</p>
+                    </div>
+                </div>
+                <div id='text-inspiracja' class="col-md-7 text-center">
+                    <h2>Inspirujemy</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ducimus accusamus eaque
+                        incidunt omnis minima culpa similique porro fugit ipsum cumque laborum molestias, earum neque.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias laborum soluta fuga
+                        perspiciatis architecto modi harum, earum velit nesciunt quasi magni cum doloremque alias minima
+                        fugit ab atque quaerat praesentium!.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h3>O nas</h3>
+                    <p>Naszym głównym celem jest wymiana doświadczeń między podróżnikami podczas cyklicznych spotkań.
+                        <span class="span-footer">Naszym największym kapitałem</span> jest wiedza i zaangażowanie
+                        naszych członków.</p>
+                </div>
+                <div class="col-12 col-md-6 text-center">
+                    <h3>Kontakt</h3>
+                    <a href="mailto:klub@podroznika.pl">klub@podroznika.pl</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+
+        </script>
+    <script src="zadanie1.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container">
+            <a class="navbar-brand" href="#">Klub podróżniczy</a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse main-right-nav" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Dołącz do nas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inspiracje</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="join" class="main-form">
+        <div class="container glowny-kontener">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="main-formularz">
+                        <div class="row main-title-form">
+                            <div class="col-10">
+                                <h2>Dołącz do nas</h2>
+                                <p>Wypelnij zgloszenie na czlonka klubu:</p>
+
+                            </div>
+                            <div class="col-2">
+                                <i class="fas fa-pencil-alt display-4"></i>
+                            </div>
+                        </div>
+                        <div class="conatianer">
+                            <form id='formularz-kontaktowy'>
+                                <input type="text" id='name' placeholder="Imie i nazwisko">
+                                <input type="email" id='email' placeholder="Email:">
+                                <input type="tel" id='phone' placeholder="Telefon">
+                                <textarea id="message" rows='3' placeholder="Kilka slow"></textarea>
+
+                                <button type="submit" class="btn btn-primary">Zapisz się!</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-7 col-lg-8 text-center">
+                    <div class='content-holder'>
+                        <h1>Swiat</h1>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut consequatur quos velit, illo
+                            hic corrupti facere officiis maiores placeat dolorum enim inventore unde, tempore non odit
+                            laborum ipsum temporibus nostrum?
+                        </p>
+                        <a href='' class='btn btn-primary btn-orange'>Znajdz nas</a>
+                        <a href='' class='btn btn-primary btn-gray'>Dowiedz sie wiecej <i
+                                class='far fa-lightbulb'></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="join2" class="main-form2">
+        <div>
+            <div class="container drugi-kontener">
+                <div class='row'>
+                    <div class="col-3 col-md-3 col-lg-4">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe src="https://player.vimeo.com/video/115014610" width="640" height="360"
+                                frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                            <p><a href="https://vimeo.com/115014610">The Coast</a> from <a
+                                    href="https://vimeo.com/nrsfilms">NRS Films</a> on <a
+                                    href="https://vimeo.com">Vimeo</a>.</p>
+                        </div>
+                    </div>
+                    <div class="container drugi-text"></div>
+                        <div class='row'>
+                            <div class="col-8 col-md-7 col-lg-6 text-center">
+                                <h2>Inspirujemy</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, similique!</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum reiciendis dolorem vitae a
+                                    aperiam eos modi est repellat dolor distinctio.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer> </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html> -->
